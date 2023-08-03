@@ -1,0 +1,80 @@
+// .login-page {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     margin-top: 50px;
+//     border: solid 3px;
+//     padding: 10px;
+//     width: 50%;
+//     background-color: $color-3;
+
+//   }
+  
+//   form .login{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     margin: 20px;
+//   }
+  
+//   input {
+//     margin-bottom: 10px;
+//     padding: 5px;
+//   }
+  
+//   button .connexion{
+//     padding: 10px 20px;
+
+//   }
+  .login-page {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // width: 30%;
+    // border: solid 3px;
+    // padding: 20px;
+    // margin-bottom: 100px;
+    // background-color: $color-3;
+  }
+  
+  .login{  
+    display: flex;     
+    flex-direction: column; 
+    align-items: center;
+    background-color: white;
+    display: flex;
+    
+    border: solid 3px;
+    background-color: $color-3;
+    padding: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .login div {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .login label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .login input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+  }
+  
+  .connexion {
+    width: 100%;
+    padding: 30px;
+    color: white;
+    background-color: blue;
+  }

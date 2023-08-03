@@ -1,0 +1,29 @@
+.blog {
+    // margin: 10px 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+    .blogContent {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width:80%;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+
+      p{
+        padding: 5px 20px;
+      }
+
+      h2{
+      background: $color-3;
+      font-family: $font-2;
+      margin: 0;
+      padding: 0 10px;
+      // box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+  

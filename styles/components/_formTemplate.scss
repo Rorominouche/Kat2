@@ -1,0 +1,116 @@
+.success,
+  .error {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .success {
+    background: #EB8484;
+  }
+  .error {
+    background: red;
+  }
+
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    padding: 20px;;
+  }
+  .form-box {
+    width: 100%;
+    // max-width: 400px;
+    max-width: 60%;
+    padding: 30px 15px;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  .c-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff
+  }
+  .c-form-label {
+    display: inline-block;
+    // margin: .5rem 0;
+    margin: 5 0;
+    color: #3d3935;
+    letter-spacing: .2px;
+    font-size: 1rem;
+  }
+  .c-form-input {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #3d3935;
+    border-radius: 4px;
+    background-color: #D9D9D9;
+    letter-spacing: .2px;
+    font-size: 1rem;
+    color: #3d3935;
+    outline: 0;
+  }
+  .c-form-input::placeholder {
+    color: #867d6c;
+    font-size: 1rem;
+  }
+  .c-form-required {
+    color: #b0092d;
+  }
+  textarea.c-form-input {
+    width: 100%;
+    min-height: 10ch;
+    max-height: 120ch;
+    padding: 10px;
+    resize: none;
+  }
+  .two-columns {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .three-columns {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: red;
+  }
+  fieldset {
+    margin: .4rem 0;
+    padding: 0;
+    border: none;
+  }
+
+  input[type="checkbox"] {
+    margin: 0px 10px;
+    color: black;
+    border: 2px solid #000;
+    box-shadow: #000;
+  }
+
+  .c-form-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #191F69;
+    color: #fff;
+    font-size: 1.125rem;
+    letter-spacing: 2px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+  }
+  @media screen and (min-width: 481px) {
+    .two-columns {
+      grid-template-columns: 48.7804878% 48.7804878%;
+      grid-column-gap: 2.43902439%;
+    }
+  }
+  

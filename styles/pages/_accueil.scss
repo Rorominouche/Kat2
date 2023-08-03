@@ -1,0 +1,132 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.banniere_accueil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banniere_accueil p{
+    text-align: center;
+    margin: 20px;
+    font-family: $font-2;
+    width: 80%;
+    font-size: 2ch;
+}
+#banniereaccueil{
+    width: 80%;
+}
+
+/*********************PRESENTATION**********************/
+.serv1{
+    border: solid 15px $color-2;
+}
+.serv2{
+    border: solid 15px $color-3;
+}
+.serv3{
+    border: solid 15px $color-1;
+}
+.serv4{
+    border: solid 15px $color-4;
+}
+.services{
+    display: flex;
+}
+.services img {
+    width: 200px;
+    height: 200px;
+} 
+
+.services h4{
+    font-family: $font-2;
+}
+.services .vignette{
+    text-align: center;
+    margin: 10px 50px 10px 0px;
+}
+
+.presentation{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 10% 50px 10%;
+}
+
+.presentationdroite{
+    flex: 1;
+    text-align: justify;
+}
+
+.presentationdroite h2{
+    font-family: $font-4;
+    margin-bottom: 20px;
+}
+/*******************ENTREPRISE******************************/
+.entreprise{
+    background-color: $color-2;
+    text-align: center;
+    padding: 50px 10% 50px 10%;
+}
+.entreprise h2{
+    background-color: $color-2;
+    color: white;
+    font-family: $font-4;
+    font-size: 300%;
+    margin: 20px;
+}
+.entreprise p{
+    background-color: $color-2;
+}
+
+.entreprise h3{
+    background-color: $color-2;
+    color: white;
+    font-family: $font-5;
+    font-size: 200%;
+    margin: 30px;
+}
+
+.entreprise span{
+    font-family: $font-2;
+    background-color: $color-2;
+}
+
+/*********************EXPERTS*********************/
+.experts h2{
+    color: $color-1;
+    font-family: $font-4;
+    font-size: 300%;
+    margin: 20px;
+    text-align: center;
+}
+
+/**********************CHIFFRES*********************/
+.chiffres{
+    display: flex;
+    background-color: $color-3;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.chiffre{
+    background-color: $color-3;
+    flex-basis: 20%; 
+    max-width: 100%; 
+}
+
+.chiffre img{
+    width: 60%;
+    height: auto;
+}
+
+/**********************PARTENAIRES********************/
+.partenaires h2{
+    color: $color-1;
+    font-family: $font-4;
+    font-size: 300%;
+    margin: 20px;
+    text-align: center;
+}

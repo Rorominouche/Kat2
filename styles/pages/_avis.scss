@@ -1,0 +1,57 @@
+.bandeauaccueil {
+  h1{
+    font-family: $font-5;  
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 200%;
+  }
+}
+
+.blog-container {
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    form  {
+      display: grid;
+      min-width: 400px;
+      text-align: center;
+      width: 50%;
+      max-width: 800px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      background: white;
+  
+      input,
+      textarea  {
+        margin: 15px 0;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid $color-4;
+        resize: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      }
+     
+      textarea {
+        height: 140px;
+      }
+      p {
+        font-size: 0.8rem;
+        color: red;
+      }
+      input[type="submit"] {
+        width: 200px;
+        margin-left: auto;
+        cursor: pointer;
+        transition: 0.4s;
+        background: $color-4;
+  
+        &:hover {
+          background: $color-3;
+          color: white;
+        }
+       
+      }
+    }
+  }
+  

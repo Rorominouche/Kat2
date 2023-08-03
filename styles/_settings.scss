@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "font-1";
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: "font-2";
+    src: url(../assets/fonts/Poppins-Bold.ttf);
+  }
+  @font-face {
+    font-family: "font-3";
+    src: url(../assets/fonts/Poppins-Light.ttf);
+  }
+  @font-face {
+    font-family: "font-4";
+    src: url(../assets/fonts/DancingScript-Regular.ttf);
+  }
+  @font-face {
+    font-family: "font-5";
+    src: url(../assets/fonts/DancingScript-Bold.ttf);
+  }
+  
+  $font-1: "font-1", sans-serif;
+  $font-2: "font-2", sans-serif;
+  $font-3: "font-3", sans-serif;
+  $font-4: "font-4";
+  $font-5: "font-5";
+  
+  $color-1: #191F69;
+  $color-2: #EB8484;
+  $color-3: #EBECF0;
+  $color-4: #F9B146;
+  $color-5: #3E9580;
+  
+  @mixin verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font-1;
+    color: $color-1;
+    background: white;
+  }
+  
+  
+  li {
+    list-style-type: none;
+  }
+ 

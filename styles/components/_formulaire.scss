@@ -1,0 +1,45 @@
+form {
+    // display: grid;
+    display: flex;
+    flex-direction: column; 
+    width: 40%;
+    min-width: 300px;
+    // max-width: 600px;
+    margin: 0 auto;
+    background-color: #F9B146;
+    font-family: $font-2;
+    color: white;
+}
+
+  .success,
+  .error {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .success {
+    background: rgb(108, 231, 108);
+  }
+  .error {
+    background: rgb(246, 89, 89);
+  }
+label {
+    margin: 5px 0;
+    
+}
+
+.form-container-footer form input, textarea{
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px 5px;
+  border: 1px solid #3d3935;
+  border-radius: 4px;
+  background-color: $color-3;
+  color: $color-1;
+  outline: 0;
+}
+
+

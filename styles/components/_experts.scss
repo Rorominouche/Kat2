@@ -1,0 +1,28 @@
+.conteneur_slider{
+    margin: 0 auto;
+  max-width: 400px;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.legend{
+  height: auto;
+  position: absolute;
+}
+
+.carousel .slide .legend{
+    background: $color-3;
+    opacity: 0.8;
+    font-size: 14px; 
+    color: $color-1;
+}
+
+ul.thumbs.animated {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+

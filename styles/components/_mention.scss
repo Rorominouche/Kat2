@@ -1,0 +1,17 @@
+.mention {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mention .text_gauche{
+    flex: 1;
+    margin: 10px 30px 5px 30px;
+}
+
+.mention .text_droite{
+    margin: 40px;
+}
+.mention .text_droite p{
+    font-family: $font-2;
+    
+}
